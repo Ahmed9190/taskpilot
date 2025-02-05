@@ -1,2 +1,83 @@
-/.env
-/.mypy_cache
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Django-specific
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+*.swp
+
+# Local environment variables
+.env
+*.env
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Podman / Docker
+podman-compose.override.yml
+podman-compose.logs
+docker-compose.override.yml
+docker-compose.logs
+*.pid
+*.sock
+*.log
+build/
+dist/
+*.tar
+*.tgz
+*.zip
+node_modules/
+
+# PostgreSQL data
+postgres_data/
+pg_data/
+pg_dump.sql
+
+# Redis data
+redis_data/
+redis_dump.rdb
+
+# Celery-related
+celerybeat-schedule
+celerybeat.pid
+
+# Pytest / Coverage
+.coverage
+htmlcov/
+pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Mypy cache
+.mypy_cache/
+.dmypy.json
+mypy-report/
+
+# Pip / Package logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# JetBrains IDEs (PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
